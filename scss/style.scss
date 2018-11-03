@@ -1,2 +1,10 @@
 @import "varibales.scss";
 @import "slider.scss";
+
+
+@import "header.scss";
+@import "main.scss";
+@import "footer.scss";
+.container {
+    width: $width;
+}
