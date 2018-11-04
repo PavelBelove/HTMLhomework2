@@ -24,7 +24,7 @@ header .header_top {
   /*padding: 2.5rem 23.5rem;*/
 }
 header .header_top .logo {
-  width: 7.188rem;
+  width: 7.7rem;
   height: 1.625rem;
   color: #ffffff;
   padding-top: 2.5rem;
@@ -47,6 +47,9 @@ header .header_top ul {
   list-style: none;
   justify-content: space-between;
   align-items: center;
+}
+header .header_top a {
+  text-decoration: none;
 }
 header .header_top li {
   margin: 15px;
