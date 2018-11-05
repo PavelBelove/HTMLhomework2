@@ -2,7 +2,7 @@ header {
     width: 120rem;
     height: 64rem;
     background-color: rgba(17, 17, 17, 0.7);
-    background-image: url(../img/photo.jpg);
+    background-image: url(../img/header/photo.jpg);
     background-size: cover;
     display: flex;
     flex-direction: column;
@@ -40,6 +40,7 @@ header {
                 color: #998675;
                 fill: #998675;
                 flood-color: #998675;
+                
             }
         }
 
@@ -82,7 +83,7 @@ header {
             width: 150px;
             height: 30px;
             background-color: rgba(255, 255, 255, 0);
-            background-image: url(../img/icon-search.svg);
+            background-image: url(../img/header/icon-search.svg);
             background-repeat: no-repeat;
             outline: none;
             border: none;
@@ -93,7 +94,7 @@ header {
             &:focus {
                 outline: solid 2px #c7b299;
                 background-color: rgba(255, 255, 255, 0.05);
-                background-image: url(../img/icon-search-hover.svg);
+                background-image: url(../img/header/icon-search-hover.svg);
                 background-position: 0px 5px;
             }
 
@@ -181,22 +182,32 @@ header {
     .left_slide,
     .right_slide {
         width: 40px;
-        height: 73px;
+        height: 80px;
 
     }
 
 
 
     .left_slide {
-        background-image: url(../img/left.png);
+        background-image: url(../img/header/left.svg);
         background-repeat: no-repeat;
         margin-right: 30rem;
+
+        &:hover {
+            background-image: url(../img/header/left-hover.svg);
+            background-position: 0px 5px;
+        }
     }
 
     .right_slide {
-        background-image: url(../img/right.png);
+        background-image: url(../img/header/right.svg);
         background-repeat: no-repeat;
         margin-left: 30rem;
+
+        &:hover {
+            background-image: url(../img/header/right-hover.svg);
+            background-position: 0px 5px;
+        }
     }
 
     .radio_container {
@@ -207,7 +218,7 @@ header {
         .radio_slider {
             width: 15px;
             height: 15px;
-            background-image: url(../img/radio_off.png);
+            background-image: url(../img/header/radio_off.png);
             margin: 5px;
             background-color: transparent;
             background-repeat: no-repeat;
@@ -215,7 +226,7 @@ header {
 
             &:hover,
             &:active {
-                background-image: url(../img/radio_on.png);
+                background-image: url(../img/header/radio_on.png);
                 background-position: 0px 0px;
             }
 

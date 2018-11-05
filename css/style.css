@@ -8,7 +8,7 @@ header {
   width: 120rem;
   height: 64rem;
   background-color: rgba(17, 17, 17, 0.7);
-  background-image: url(../img/photo.jpg);
+  background-image: url(../img/header/photo.jpg);
   background-size: cover;
   display: flex;
   flex-direction: column;
@@ -72,7 +72,7 @@ header .header_top .sertch-icon {
   width: 150px;
   height: 30px;
   background-color: rgba(255, 255, 255, 0);
-  background-image: url(../img/icon-search.svg);
+  background-image: url(../img/header/icon-search.svg);
   background-repeat: no-repeat;
   outline: none;
   border: none;
@@ -82,7 +82,7 @@ header .header_top .sertch-icon {
 header .header_top .sertch-icon:hover, header .header_top .sertch-icon:focus {
   outline: solid 2px #c7b299;
   background-color: rgba(255, 255, 255, 0.05);
-  background-image: url(../img/icon-search-hover.svg);
+  background-image: url(../img/header/icon-search-hover.svg);
   background-position: 0px 5px;
 }
 header .header-center {
@@ -152,17 +152,25 @@ header .headline .get_started:active {
 header .left_slide,
 header .right_slide {
   width: 40px;
-  height: 73px;
+  height: 80px;
 }
 header .left_slide {
-  background-image: url(../img/left.png);
+  background-image: url(../img/header/left.svg);
   background-repeat: no-repeat;
   margin-right: 30rem;
 }
+header .left_slide:hover {
+  background-image: url(../img/header/left-hover.svg);
+  background-position: 0px 5px;
+}
 header .right_slide {
-  background-image: url(../img/right.png);
+  background-image: url(../img/header/right.svg);
   background-repeat: no-repeat;
   margin-left: 30rem;
+}
+header .right_slide:hover {
+  background-image: url(../img/header/right-hover.svg);
+  background-position: 0px 5px;
 }
 header .radio_container {
   margin-bottom: 30px;
@@ -172,14 +180,14 @@ header .radio_container {
 header .radio_container .radio_slider {
   width: 15px;
   height: 15px;
-  background-image: url(../img/radio_off.png);
+  background-image: url(../img/header/radio_off.png);
   margin: 5px;
   background-color: transparent;
   background-repeat: no-repeat;
   background-position: 1px 1px;
 }
 header .radio_container .radio_slider:hover, header .radio_container .radio_slider:active {
-  background-image: url(../img/radio_on.png);
+  background-image: url(../img/header/radio_on.png);
   background-position: 0px 0px;
 }
 
