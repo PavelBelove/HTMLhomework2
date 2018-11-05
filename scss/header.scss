@@ -1,0 +1,237 @@
+header {
+    width: 120rem;
+    height: 64rem;
+    background-color: rgba(17, 17, 17, 0.7);
+    background-image: url(../img/header/photo.jpg);
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+
+    .header_top {
+        display: flex;
+        width: 100rem;
+        height: 4rem;
+        justify-content: space-between;
+        align-items: center;
+        /*padding: 2.5rem 23.5rem;*/
+
+
+        .logo {
+            // Style for "Waxom"
+            width: 7.7rem;
+            height: 1.625rem;
+            color: #ffffff;
+
+            padding-top: 2.5rem;
+            margin-left: 10rem;
+            // Text style for "Waxom"
+            font-family: Raleway;
+            font-size: 2.125rem;
+            font-weight: 400;
+
+            letter-spacing: -0.085rem;
+            text-decoration: none;
+            fill: #fff;
+            flood-color: rgb(255, 255, 255);
+
+            &:hover {
+                color: #998675;
+                fill: #998675;
+                flood-color: #998675;
+                
+            }
+        }
+
+        ul {
+            display: flex;
+
+            list-style: none;
+            justify-content: space-between;
+            align-items: center;
+        }
+
+        a {
+            text-decoration: none;
+        }
+
+        li {
+            // Style for "menu"
+            margin: 15px;
+            margin-top: 3.9rem;
+
+            color: #ffffff;
+            fill: #ffffff;
+            font-family: Montserrat;
+            font-size: 0.875rem;
+            font-weight: 300;
+            text-transform: uppercase;
+
+
+            &:hover {
+                height: 0.688rem;
+                color: #c7b299;
+                fill: #c7b299;
+            }
+        }
+
+        .sertch-icon {
+
+            margin: 15px;
+            margin-top: 3.9rem;
+            width: 150px;
+            height: 30px;
+            background-color: rgba(255, 255, 255, 0);
+            background-image: url(../img/header/icon-search.svg);
+            background-repeat: no-repeat;
+            outline: none;
+            border: none;
+            padding-left: 28px;
+            color: #c7b299;
+
+            &:hover,
+            &:focus {
+                outline: solid 2px #c7b299;
+                background-color: rgba(255, 255, 255, 0.05);
+                background-image: url(../img/header/icon-search-hover.svg);
+                background-position: 0px 5px;
+            }
+
+        }
+
+    }
+
+    .header-center {
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+    }
+
+    .headline {
+        display: flex;
+        flex-direction: column;
+        align-self: flex-end;
+        justify-content: center;
+
+        span {
+            font-family: Raleway;
+            color: #ffffff;
+            font-size: 36px;
+            /* Приближение из-за подстановки шрифтов */
+            font-weight: 500;
+            text-align: center;
+        }
+
+        h1 {
+            font-family: Raleway;
+            color: #ffffff;
+            font-size: 52px;
+            /* Приближение из-за подстановки шрифтов */
+            font-weight: 700;
+            text-align: center;
+        }
+
+        p {
+            width: 12, 5rem;
+            font-family: Montserrat;
+            color: #ffffff;
+            font-size: 16px;
+            /* Приближение из-за подстановки шрифтов */
+            font-weight: 300;
+            line-height: 24px;
+            /* Приближение из-за подстановки шрифтов */
+            text-align: center;
+        }
+
+        .get_started {
+            border-bottom: solid 4px rgb(97, 88, 85);
+            border-radius: 3px;
+            background-color: #998675;
+            padding: 21px 40px;
+            max-width: 170px;
+            align-self: center;
+
+
+
+            font-family: Raleway;
+            color: #ffffff;
+            font-size: 14px;
+            /* Приближение из-за подстановки шрифтов */
+            font-weight: 700;
+            line-height: 23px;
+            /* Приближение из-за подстановки шрифтов */
+            text-align: center;
+            text-transform: uppercase;
+            text-decoration: none;
+
+
+            &:hover {
+                border-bottom: solid 2px rgb(97, 88, 85);
+                border-top: solid 2px rgb(97, 88, 85);
+            }
+
+            &:active {
+                border-bottom: solid 0px rgb(97, 88, 85);
+                border-top: solid 4px rgb(97, 88, 85);
+            }
+        }
+
+    }
+
+    .left_slide,
+    .right_slide {
+        width: 40px;
+        height: 80px;
+
+    }
+
+
+
+    .left_slide {
+        background-image: url(../img/header/left.svg);
+        background-repeat: no-repeat;
+        margin-right: 30rem;
+
+        &:hover {
+            background-image: url(../img/header/left-hover.svg);
+            background-position: 0px 5px;
+        }
+    }
+
+    .right_slide {
+        background-image: url(../img/header/right.svg);
+        background-repeat: no-repeat;
+        margin-left: 30rem;
+
+        &:hover {
+            background-image: url(../img/header/right-hover.svg);
+            background-position: 0px 5px;
+        }
+    }
+
+    .radio_container {
+        margin-bottom: 30px;
+        display: inline-flex;
+        justify-content: center;
+
+        .radio_slider {
+            width: 15px;
+            height: 15px;
+            background-image: url(../img/header/radio_off.png);
+            margin: 5px;
+            background-color: transparent;
+            background-repeat: no-repeat;
+            background-position: 1px 1px;
+
+            &:hover,
+            &:active {
+                background-image: url(../img/header/radio_on.png);
+                background-position: 0px 0px;
+            }
+
+        }
+
+    }
+
+}

@@ -1,0 +1,98 @@
+.servises {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding-bottom: 3rem;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    justify-content: center;
+
+    a {
+        text-decoration: none;
+        padding-top: 3rem;
+        margin-top: 3rem;
+        background-repeat: no-repeat;
+        background-position: center 0;
+        display: block;
+
+        &:hover {
+            h3 {
+                color: #c7b299;
+            }
+
+            .line {
+
+                background-color: #c7b299;
+            }
+        }
+
+
+    }
+
+    h3 {
+        font-family: Raleway;
+        color: #555555;
+        font-size: 22px;
+        /* Приближение из-за подстановки шрифтов */
+        font-weight: 600;
+        text-align: center;
+
+
+    }
+
+    p {
+        font-family: Montserrat;
+        color: #8c8c8c;
+        font-size: 14px;
+        /* Приближение из-за подстановки шрифтов */
+        font-weight: 300;
+        line-height: 24px;
+        /* Приближение из-за подстановки шрифтов */
+        text-align: center;
+    }
+
+    .line {
+        display: inline-block;
+        background-color: #f1eee9;
+        width: 70px;
+        height: 3px;
+        margin-left: 110px;
+
+    }
+}
+
+.servis_1 {
+
+    background-image: url(../img/servises/icon_1.svg);
+
+    &:hover {
+        background-image: url(../img/servises/icon_1_hover.svg);
+    }
+
+}
+
+.servis_2 {
+
+    background-image: url(../img/servises/icon_2.svg);
+
+    &:hover {
+        background-image: url(../img/servises/icon_2_hover.svg);
+    }
+}
+
+.servis_3 {
+
+    background-image: url(../img/servises/icon_3.svg);
+
+    &:hover {
+        background-image: url(../img/servises/icon_3_hover.svg);
+    }
+}
+
+.servis_4 {
+
+    background-image: url(../img/servises/icon_4.svg);
+
+    &:hover {
+        background-image: url(../img/servises/icon_4_hover.svg);
+    }
+}
