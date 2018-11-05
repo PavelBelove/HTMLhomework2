@@ -13,15 +13,18 @@
         background-repeat: no-repeat;
         background-position: center 0;
         display: block;
+        position: relative;
 
         &:hover {
             h3 {
                 color: #c7b299;
+                transition:  all 0.3s ease-in;
             }
 
             .line {
 
                 background-color: #c7b299;
+                transition:  all 0.3s ease-in;
             }
         }
 
@@ -51,11 +54,12 @@
     }
 
     .line {
-        display: inline-block;
+        display: block;
         background-color: #f1eee9;
         width: 70px;
         height: 3px;
-        margin-left: 110px;
+        margin: 0px auto;
+        
 
     }
 }
@@ -66,6 +70,7 @@
 
     &:hover {
         background-image: url(../img/servises/icon_1_hover.svg);
+        transition:  all 0.3s ease-in;
     }
 
 }
@@ -76,6 +81,7 @@
 
     &:hover {
         background-image: url(../img/servises/icon_2_hover.svg);
+        transition:  all 0.3s ease-in;
     }
 }
 
@@ -85,6 +91,7 @@
 
     &:hover {
         background-image: url(../img/servises/icon_3_hover.svg);
+        transition:  all 0.3s ease-in;
     }
 }
 
@@ -94,5 +101,6 @@
 
     &:hover {
         background-image: url(../img/servises/icon_4_hover.svg);
+        transition:  all 0.3s ease-in;
     }
 }

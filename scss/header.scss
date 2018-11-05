@@ -13,6 +13,7 @@ header {
         display: flex;
         width: 100rem;
         height: 4rem;
+        padding-top: 2.5rem;
         justify-content: space-between;
         align-items: center;
         /*padding: 2.5rem 23.5rem;*/
@@ -20,11 +21,11 @@ header {
 
         .logo {
             // Style for "Waxom"
-            width: 7.7rem;
-            height: 1.625rem;
+            width: auto;
+            height: auto;
             color: #ffffff;
 
-            padding-top: 2.5rem;
+            
             margin-left: 10rem;
             // Text style for "Waxom"
             font-family: Raleway;
@@ -40,7 +41,7 @@ header {
                 color: #998675;
                 fill: #998675;
                 flood-color: #998675;
-                
+                transition:  all 0.3s ease-in;
             }
         }
 
@@ -59,7 +60,7 @@ header {
         li {
             // Style for "menu"
             margin: 15px;
-            margin-top: 3.9rem;
+           
 
             color: #ffffff;
             fill: #ffffff;
@@ -73,18 +74,20 @@ header {
                 height: 0.688rem;
                 color: #c7b299;
                 fill: #c7b299;
+                transition:  all 0.3s ease-in;
             }
         }
 
         .sertch-icon {
 
             margin: 15px;
-            margin-top: 3.9rem;
+            
             width: 150px;
             height: 30px;
             background-color: rgba(255, 255, 255, 0);
             background-image: url(../img/header/icon-search.svg);
             background-repeat: no-repeat;
+            background-position: 0px 5px;
             outline: none;
             border: none;
             padding-left: 28px;
@@ -96,6 +99,7 @@ header {
                 background-color: rgba(255, 255, 255, 0.05);
                 background-image: url(../img/header/icon-search-hover.svg);
                 background-position: 0px 5px;
+                transition:  all 0.3s ease-in;
             }
 
         }
@@ -169,11 +173,13 @@ header {
             &:hover {
                 border-bottom: solid 2px rgb(97, 88, 85);
                 border-top: solid 2px rgb(97, 88, 85);
+                transition:  all 0.3s ease-in;
             }
 
             &:active {
                 border-bottom: solid 0px rgb(97, 88, 85);
                 border-top: solid 4px rgb(97, 88, 85);
+                transition:  all 0.3s ease-in;
             }
         }
 
@@ -196,6 +202,7 @@ header {
         &:hover {
             background-image: url(../img/header/left-hover.svg);
             background-position: 0px 5px;
+            transition:  all 0.3s ease-in;
         }
     }
 
@@ -207,6 +214,7 @@ header {
         &:hover {
             background-image: url(../img/header/right-hover.svg);
             background-position: 0px 5px;
+            transition:  all 0.3s ease-in;
         }
     }
 
@@ -228,6 +236,7 @@ header {
             &:active {
                 background-image: url(../img/header/radio_on.png);
                 background-position: 0px 0px;
+                transition:  all 0.3s ease-in;
             }
 
         }
