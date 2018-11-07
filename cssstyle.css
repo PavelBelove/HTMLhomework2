@@ -211,15 +211,6 @@ h2 {
   text-align: center;
 }
 
-.about_h2 {
-  font-family: Montserrat;
-  color: #8c8c8c;
-  font-size: 16px;
-  font-weight: 300;
-  line-height: 28px;
-  text-align: center;
-}
-
 .servises {
   max-width: 1200px;
   margin: 0 auto;
@@ -308,34 +299,6 @@ h2 {
   display: flex;
   flex-direction: column;
   align-content: center;
-  padding-top: 80px;
-}
-.hover_img .wrapper {
-  padding-top: 40px;
-  position: relative;
-  background-color: #fbfaf8;
-  height: 482px;
-}
-.hover_img img {
-  position: absolute;
-}
-.hover_img .left_img {
-  left: 40%;
-  transform: translate(-50%, 20%);
-}
-.hover_img .left_img:hover {
-  z-index: 1;
-}
-.hover_img .right_img {
-  left: 60%;
-  transform: translate(-50%, 20%);
-}
-.hover_img .right_img:hover {
-  z-index: 3;
-}
-.hover_img .center_img {
-  left: 50%;
-  transform: translate(-50%, 0%);
 }
 
-/*# sourceMappingURL=style.css.map */
+/*# sourceMappingURL=cssstyle.css.map */
