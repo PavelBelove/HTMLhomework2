@@ -338,4 +338,63 @@ h2 {
   transform: translate(-50%, 0%);
 }
 
+.wp_theme {
+  display: flex;
+  justify-content: space-around;
+  padding: 3rem 0%;
+  background-color: #fff;
+  background: -webkit-linear-gradient(0deg, #211b19 0%, #4e3427 100%);
+  background: -moz-linear-gradient(0deg, #211b19 0%, #4e3427 100%);
+  background: -o-linear-gradient(0deg, #211b19 0%, #4e3427 100%);
+  background: -ms-linear-gradient(0deg, #211b19 0%, #4e3427 100%);
+  background: linear-gradient(90deg, #211b19 0%, #4e3427 100%);
+}
+.wp_theme h3 {
+  font-family: Raleway;
+  color: #ffffff;
+  font-size: 28px;
+  font-weight: 400;
+  text-align: left;
+  font-family: Raleway;
+  margin-top: 0px;
+}
+.wp_theme .gold_txt {
+  color: #c7b299;
+}
+.wp_theme span {
+  font-family: Montserrat;
+  color: #615855;
+  font-size: 18px;
+  font-weight: 300;
+  text-align: left;
+}
+.wp_theme .purshare {
+  border-bottom: solid 4px #615855;
+  border-radius: 3px;
+  background-color: #998675;
+  padding: 21px 40px;
+  max-width: 170px;
+  align-self: center;
+  font-family: Raleway;
+  color: #ffffff;
+  font-size: 14px;
+  /* Приближение из-за подстановки шрифтов */
+  font-weight: 700;
+  line-height: 23px;
+  /* Приближение из-за подстановки шрифтов */
+  text-align: center;
+  text-transform: uppercase;
+  text-decoration: none;
+}
+.wp_theme .purshare:hover {
+  border-bottom: solid 2px #615855;
+  border-top: solid 2px #615855;
+  transition: all 0.3s ease-in;
+}
+.wp_theme .purshare:active {
+  border-bottom: solid 0px #615855;
+  border-top: solid 4px #615855;
+  transition: all 0.3s ease-in;
+}
+
 /*# sourceMappingURL=style.css.map */
