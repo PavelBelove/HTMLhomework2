@@ -1,0 +1,226 @@
+@charset "UTF-8";
+/* line 1, ../scss/main.scss */
+h2 {
+  font-family: Raleway;
+  color: #555555;
+  font-size: 30px;
+  font-weight: 600;
+  text-align: center;
+}
+
+/* line 10, ../scss/main.scss */
+.about_h2 {
+  font-family: Montserrat;
+  color: #8c8c8c;
+  font-size: 16px;
+  font-weight: 300;
+  line-height: 28px;
+  text-align: center;
+}
+
+/* line 1, ../scss/servises.scss */
+.servises {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding-bottom: 3rem;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  justify-content: center;
+}
+/* line 9, ../scss/servises.scss */
+.servises a {
+  text-decoration: none;
+  padding-top: 3rem;
+  margin-top: 3rem;
+  background-repeat: no-repeat;
+  background-position: center 0;
+  display: block;
+  position: relative;
+}
+/* line 19, ../scss/servises.scss */
+.servises a:hover h3 {
+  color: #c7b299;
+  transition: all 0.3s ease-in;
+}
+/* line 24, ../scss/servises.scss */
+.servises a:hover .line {
+  background-color: #c7b299;
+  transition: all 0.3s ease-in;
+}
+/* line 34, ../scss/servises.scss */
+.servises h3 {
+  font-family: Raleway;
+  color: #555555;
+  font-size: 22px;
+  /* Приближение из-за подстановки шрифтов */
+  font-weight: 600;
+  text-align: center;
+}
+/* line 45, ../scss/servises.scss */
+.servises p {
+  font-family: Montserrat;
+  color: #8c8c8c;
+  font-size: 14px;
+  /* Приближение из-за подстановки шрифтов */
+  font-weight: 300;
+  line-height: 24px;
+  /* Приближение из-за подстановки шрифтов */
+  text-align: center;
+}
+/* line 56, ../scss/servises.scss */
+.servises .line {
+  display: block;
+  background-color: #f1eee9;
+  width: 70px;
+  height: 3px;
+  margin: 0px auto;
+}
+
+/* line 67, ../scss/servises.scss */
+.servis_1 {
+  background-image: url(../img/servises/icon_1.svg);
+}
+/* line 71, ../scss/servises.scss */
+.servis_1:hover {
+  background-image: url(../img/servises/icon_1_hover.svg);
+  transition: all 0.3s ease-in;
+}
+
+/* line 78, ../scss/servises.scss */
+.servis_2 {
+  background-image: url(../img/servises/icon_2.svg);
+}
+/* line 82, ../scss/servises.scss */
+.servis_2:hover {
+  background-image: url(../img/servises/icon_2_hover.svg);
+  transition: all 0.3s ease-in;
+}
+
+/* line 88, ../scss/servises.scss */
+.servis_3 {
+  background-image: url(../img/servises/icon_3.svg);
+}
+/* line 92, ../scss/servises.scss */
+.servis_3:hover {
+  background-image: url(../img/servises/icon_3_hover.svg);
+  transition: all 0.3s ease-in;
+}
+
+/* line 98, ../scss/servises.scss */
+.servis_4 {
+  background-image: url(../img/servises/icon_4.svg);
+}
+/* line 102, ../scss/servises.scss */
+.servis_4:hover {
+  background-image: url(../img/servises/icon_4_hover.svg);
+  transition: all 0.3s ease-in;
+}
+
+/* line 1, ../scss/hover_img.scss */
+.hover_img {
+  background-color: #fbfaf8;
+  display: flex;
+  flex-direction: column;
+  align-content: center;
+  padding-top: 80px;
+}
+/* line 8, ../scss/hover_img.scss */
+.hover_img .wrapper {
+  padding-top: 40px;
+  position: relative;
+  background-color: #fbfaf8;
+  height: 482px;
+}
+/* line 15, ../scss/hover_img.scss */
+.hover_img img {
+  position: absolute;
+}
+/* line 19, ../scss/hover_img.scss */
+.hover_img .left_img {
+  left: 40%;
+  transform: translate(-50%, 20%);
+}
+/* line 23, ../scss/hover_img.scss */
+.hover_img .left_img:hover {
+  z-index: 1;
+}
+/* line 28, ../scss/hover_img.scss */
+.hover_img .right_img {
+  left: 60%;
+  transform: translate(-50%, 20%);
+}
+/* line 32, ../scss/hover_img.scss */
+.hover_img .right_img:hover {
+  z-index: 3;
+}
+/* line 38, ../scss/hover_img.scss */
+.hover_img .center_img {
+  left: 50%;
+  transform: translate(-50%, 0%);
+}
+
+/* line 1, ../scss/wp_theme.scss */
+.wp_theme {
+  display: flex;
+  justify-content: space-around;
+  padding: 3rem 00%;
+  background-color: #fff;
+  background: -webkit-linear-gradient(0deg, #211b19 0%, #4e3427 100%);
+  background: -moz-linear-gradient(0deg, #211b19 0%, #4e3427 100%);
+  background: -o-linear-gradient(0deg, #211b19 0%, #4e3427 100%);
+  background: -ms-linear-gradient(0deg, #211b19 0%, #4e3427 100%);
+  background: linear-gradient(90deg, #211b19 0%, #4e3427 100%);
+}
+/* line 12, ../scss/wp_theme.scss */
+.wp_theme h3 {
+  font-family: Raleway;
+  color: #ffffff;
+  font-size: 28px;
+  font-weight: 400;
+  text-align: left;
+  font-family: Raleway;
+  margin-top: 0px;
+}
+/* line 22, ../scss/wp_theme.scss */
+.wp_theme .gold_txt {
+  color: #c7b299;
+}
+/* line 26, ../scss/wp_theme.scss */
+.wp_theme span {
+  font-family: Montserrat;
+  color: #615855;
+  font-size: 18px;
+  font-weight: 300;
+  text-align: left;
+}
+/* line 34, ../scss/wp_theme.scss */
+.wp_theme .purshare {
+  border-bottom: solid 4px #615855;
+  border-radius: 3px;
+  background-color: #998675;
+  padding: 21px 40px;
+  max-width: 170px;
+  align-self: center;
+  font-family: Raleway;
+  color: #ffffff;
+  font-size: 14px;
+  /* Приближение из-за подстановки шрифтов */
+  font-weight: 700;
+  line-height: 23px;
+  /* Приближение из-за подстановки шрифтов */
+  text-align: center;
+  text-transform: uppercase;
+  text-decoration: none;
+}
+/* line 56, ../scss/wp_theme.scss */
+.wp_theme .purshare:hover {
+  border-bottom: solid 2px #615855;
+  border-top: solid 2px #615855;
+  transition: all 0.3s ease-in;
+}
+/* line 62, ../scss/wp_theme.scss */
+.wp_theme .purshare:active {
+  border-bottom: solid 0px #615855;
+  border-top: solid 4px #615855;
+  transition: all 0.3s ease-in;
+}
