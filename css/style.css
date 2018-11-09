@@ -1,14 +1,17 @@
 @charset "UTF-8";
+/* line 1, ../scss/slider.scss */
 .wrapper {
   height: 100%;
   width: 100%;
 }
 
+/* line 5, ../scss/container.scss */
 .container {
   width: 120rem;
   margin: 0 auto;
 }
 
+/* line 1, ../scss/header.scss */
 header {
   width: 120rem;
   height: 64rem;
@@ -20,6 +23,7 @@ header {
   justify-content: space-between;
   align-items: center;
 }
+/* line 12, ../scss/header.scss */
 header .header_top {
   display: flex;
   width: 100rem;
@@ -29,6 +33,7 @@ header .header_top {
   align-items: center;
   /*padding: 2.5rem 23.5rem;*/
 }
+/* line 22, ../scss/header.scss */
 header .header_top .logo {
   width: auto;
   height: auto;
@@ -42,21 +47,25 @@ header .header_top .logo {
   fill: #fff;
   flood-color: white;
 }
+/* line 40, ../scss/header.scss */
 header .header_top .logo:hover {
   color: #998675;
   fill: #998675;
   flood-color: #998675;
   transition: all 0.3s ease-in;
 }
+/* line 48, ../scss/header.scss */
 header .header_top ul {
   display: flex;
   list-style: none;
   justify-content: space-between;
   align-items: center;
 }
+/* line 56, ../scss/header.scss */
 header .header_top a {
   text-decoration: none;
 }
+/* line 60, ../scss/header.scss */
 header .header_top li {
   margin: 15px;
   color: #ffffff;
@@ -66,12 +75,14 @@ header .header_top li {
   font-weight: 300;
   text-transform: uppercase;
 }
+/* line 73, ../scss/header.scss */
 header .header_top li:hover {
   height: 0.688rem;
   color: #c7b299;
   fill: #c7b299;
   transition: all 0.3s ease-in;
 }
+/* line 81, ../scss/header.scss */
 header .header_top .sertch-icon {
   margin: 15px;
   width: 150px;
@@ -85,6 +96,7 @@ header .header_top .sertch-icon {
   padding-left: 28px;
   color: #c7b299;
 }
+/* line 96, ../scss/header.scss */
 header .header_top .sertch-icon:hover, header .header_top .sertch-icon:focus {
   outline: solid 2px #c7b299;
   background-color: rgba(255, 255, 255, 0.05);
@@ -92,17 +104,20 @@ header .header_top .sertch-icon:hover, header .header_top .sertch-icon:focus {
   background-position: 0px 5px;
   transition: all 0.3s ease-in;
 }
+/* line 109, ../scss/header.scss */
 header .header-center {
   display: flex;
   justify-content: space-around;
   align-items: center;
 }
+/* line 115, ../scss/header.scss */
 header .headline {
   display: flex;
   flex-direction: column;
   align-self: flex-end;
   justify-content: center;
 }
+/* line 121, ../scss/header.scss */
 header .headline span {
   font-family: Raleway;
   color: #ffffff;
@@ -111,6 +126,7 @@ header .headline span {
   font-weight: 500;
   text-align: center;
 }
+/* line 130, ../scss/header.scss */
 header .headline h1 {
   font-family: Raleway;
   color: #ffffff;
@@ -119,6 +135,7 @@ header .headline h1 {
   font-weight: 700;
   text-align: center;
 }
+/* line 139, ../scss/header.scss */
 header .headline p {
   width: 12, 5rem;
   font-family: Montserrat;
@@ -130,6 +147,7 @@ header .headline p {
   /* Приближение из-за подстановки шрифтов */
   text-align: center;
 }
+/* line 151, ../scss/header.scss */
 header .headline .get_started {
   border-bottom: solid 4px #615855;
   border-radius: 3px;
@@ -148,46 +166,55 @@ header .headline .get_started {
   text-transform: uppercase;
   text-decoration: none;
 }
+/* line 173, ../scss/header.scss */
 header .headline .get_started:hover {
   border-bottom: solid 2px #615855;
   border-top: solid 2px #615855;
   transition: all 0.3s ease-in;
 }
+/* line 179, ../scss/header.scss */
 header .headline .get_started:active {
   border-bottom: solid 0px #615855;
   border-top: solid 4px #615855;
   transition: all 0.3s ease-in;
 }
+/* line 188, ../scss/header.scss */
 header .left_slide,
 header .right_slide {
   width: 40px;
   height: 80px;
 }
+/* line 197, ../scss/header.scss */
 header .left_slide {
   background-image: url(../img/header/left.svg);
   background-repeat: no-repeat;
   margin-right: 30rem;
 }
+/* line 202, ../scss/header.scss */
 header .left_slide:hover {
   background-image: url(../img/header/left-hover.svg);
   background-position: 0px 5px;
   transition: all 0.3s ease-in;
 }
+/* line 209, ../scss/header.scss */
 header .right_slide {
   background-image: url(../img/header/right.svg);
   background-repeat: no-repeat;
   margin-left: 30rem;
 }
+/* line 214, ../scss/header.scss */
 header .right_slide:hover {
   background-image: url(../img/header/right-hover.svg);
   background-position: 0px 5px;
   transition: all 0.3s ease-in;
 }
+/* line 221, ../scss/header.scss */
 header .radio_container {
   margin-bottom: 30px;
   display: inline-flex;
   justify-content: center;
 }
+/* line 226, ../scss/header.scss */
 header .radio_container .radio_slider {
   width: 15px;
   height: 15px;
@@ -197,12 +224,14 @@ header .radio_container .radio_slider {
   background-repeat: no-repeat;
   background-position: 1px 1px;
 }
+/* line 235, ../scss/header.scss */
 header .radio_container .radio_slider:hover, header .radio_container .radio_slider:active {
   background-image: url(../img/header/radio_on.png);
   background-position: 0px 0px;
   transition: all 0.3s ease-in;
 }
 
+/* line 1, ../scss/main.scss */
 h2 {
   font-family: Raleway;
   color: #555555;
@@ -211,6 +240,7 @@ h2 {
   text-align: center;
 }
 
+/* line 10, ../scss/main.scss */
 .about_h2 {
   font-family: Montserrat;
   color: #8c8c8c;
@@ -220,6 +250,7 @@ h2 {
   text-align: center;
 }
 
+/* line 1, ../scss/servises.scss */
 .servises {
   max-width: 1200px;
   margin: 0 auto;
@@ -228,6 +259,7 @@ h2 {
   grid-template-columns: 1fr 1fr 1fr 1fr;
   justify-content: center;
 }
+/* line 9, ../scss/servises.scss */
 .servises a {
   text-decoration: none;
   padding-top: 3rem;
@@ -237,14 +269,17 @@ h2 {
   display: block;
   position: relative;
 }
+/* line 19, ../scss/servises.scss */
 .servises a:hover h3 {
   color: #c7b299;
   transition: all 0.3s ease-in;
 }
+/* line 24, ../scss/servises.scss */
 .servises a:hover .line {
   background-color: #c7b299;
   transition: all 0.3s ease-in;
 }
+/* line 34, ../scss/servises.scss */
 .servises h3 {
   font-family: Raleway;
   color: #555555;
@@ -253,6 +288,7 @@ h2 {
   font-weight: 600;
   text-align: center;
 }
+/* line 45, ../scss/servises.scss */
 .servises p {
   font-family: Montserrat;
   color: #8c8c8c;
@@ -263,6 +299,7 @@ h2 {
   /* Приближение из-за подстановки шрифтов */
   text-align: center;
 }
+/* line 56, ../scss/servises.scss */
 .servises .line {
   display: block;
   background-color: #f1eee9;
@@ -271,38 +308,47 @@ h2 {
   margin: 0px auto;
 }
 
+/* line 67, ../scss/servises.scss */
 .servis_1 {
   background-image: url(../img/servises/icon_1.svg);
 }
+/* line 71, ../scss/servises.scss */
 .servis_1:hover {
   background-image: url(../img/servises/icon_1_hover.svg);
   transition: all 0.3s ease-in;
 }
 
+/* line 78, ../scss/servises.scss */
 .servis_2 {
   background-image: url(../img/servises/icon_2.svg);
 }
+/* line 82, ../scss/servises.scss */
 .servis_2:hover {
   background-image: url(../img/servises/icon_2_hover.svg);
   transition: all 0.3s ease-in;
 }
 
+/* line 88, ../scss/servises.scss */
 .servis_3 {
   background-image: url(../img/servises/icon_3.svg);
 }
+/* line 92, ../scss/servises.scss */
 .servis_3:hover {
   background-image: url(../img/servises/icon_3_hover.svg);
   transition: all 0.3s ease-in;
 }
 
+/* line 98, ../scss/servises.scss */
 .servis_4 {
   background-image: url(../img/servises/icon_4.svg);
 }
+/* line 102, ../scss/servises.scss */
 .servis_4:hover {
   background-image: url(../img/servises/icon_4_hover.svg);
   transition: all 0.3s ease-in;
 }
 
+/* line 1, ../scss/hover_img.scss */
 .hover_img {
   background-color: #fbfaf8;
   display: flex;
@@ -310,38 +356,46 @@ h2 {
   align-content: center;
   padding-top: 80px;
 }
+/* line 8, ../scss/hover_img.scss */
 .hover_img .wrapper {
   padding-top: 40px;
   position: relative;
   background-color: #fbfaf8;
   height: 482px;
 }
+/* line 15, ../scss/hover_img.scss */
 .hover_img img {
   position: absolute;
 }
+/* line 19, ../scss/hover_img.scss */
 .hover_img .left_img {
   left: 40%;
   transform: translate(-50%, 20%);
 }
+/* line 23, ../scss/hover_img.scss */
 .hover_img .left_img:hover {
   z-index: 1;
 }
+/* line 28, ../scss/hover_img.scss */
 .hover_img .right_img {
   left: 60%;
   transform: translate(-50%, 20%);
 }
+/* line 32, ../scss/hover_img.scss */
 .hover_img .right_img:hover {
   z-index: 3;
 }
+/* line 38, ../scss/hover_img.scss */
 .hover_img .center_img {
   left: 50%;
   transform: translate(-50%, 0%);
 }
 
+/* line 1, ../scss/wp_theme.scss */
 .wp_theme {
   display: flex;
   justify-content: space-around;
-  padding: 3rem 0%;
+  padding: 3rem 00%;
   background-color: #fff;
   background: -webkit-linear-gradient(0deg, #211b19 0%, #4e3427 100%);
   background: -moz-linear-gradient(0deg, #211b19 0%, #4e3427 100%);
@@ -349,6 +403,7 @@ h2 {
   background: -ms-linear-gradient(0deg, #211b19 0%, #4e3427 100%);
   background: linear-gradient(90deg, #211b19 0%, #4e3427 100%);
 }
+/* line 12, ../scss/wp_theme.scss */
 .wp_theme h3 {
   font-family: Raleway;
   color: #ffffff;
@@ -358,16 +413,19 @@ h2 {
   font-family: Raleway;
   margin-top: 0px;
 }
+/* line 22, ../scss/wp_theme.scss */
 .wp_theme .gold_txt {
   color: #c7b299;
 }
-.wp_theme span {
+/* line 26, ../scss/wp_theme.scss */
+.wp_theme .wp_span {
   font-family: Montserrat;
   color: #615855;
   font-size: 18px;
   font-weight: 300;
   text-align: left;
 }
+/* line 34, ../scss/wp_theme.scss */
 .wp_theme .purshare {
   border-bottom: solid 4px #615855;
   border-radius: 3px;
@@ -386,15 +444,219 @@ h2 {
   text-transform: uppercase;
   text-decoration: none;
 }
+/* line 56, ../scss/wp_theme.scss */
 .wp_theme .purshare:hover {
   border-bottom: solid 2px #615855;
   border-top: solid 2px #615855;
   transition: all 0.3s ease-in;
 }
+/* line 62, ../scss/wp_theme.scss */
 .wp_theme .purshare:active {
   border-bottom: solid 0px #615855;
   border-top: solid 4px #615855;
   transition: all 0.3s ease-in;
 }
 
-/*# sourceMappingURL=style.css.map */
+/* line 1, ../scss/projects.scss */
+.projects {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: auto auto auto auto;
+  width: 80%;
+  margin: 0 auto;
+}
+/* line 9, ../scss/projects.scss */
+.projects .h2_block {
+  grid-column: 1/4;
+  max-width: 650px;
+  justify-self: center;
+  text-align: center;
+}
+/* line 16, ../scss/projects.scss */
+.projects .about_h2 {
+  display: block;
+  margin-bottom: 50px;
+}
+/* line 21, ../scss/projects.scss */
+.projects .projects_filter {
+  font-family: Montserrat;
+  color: #8c8c8c;
+  font-size: 14px;
+  /* Приближение из-за подстановки шрифтов */
+  font-weight: 300;
+  line-height: 21px;
+  /* Приближение из-за подстановки шрифтов */
+  text-align: center;
+  text-decoration: none;
+  border-radius: 3px;
+  border-style: solid;
+  border-width: 1px;
+  border-color: #ebebeb;
+  box-sizing: border-box;
+  background-color: rgba(17, 17, 17, 0);
+  padding: 10px 18px;
+  margin-bottom: 50px;
+}
+/* line 40, ../scss/projects.scss */
+.projects .projects_filter:hover, .projects .projects_filter:active {
+  color: #ffffff;
+  background-color: #998675;
+}
+
+/* line 51, ../scss/projects.scss */
+.project {
+  display: block;
+  position: relative;
+  background-color: #fbfaf8;
+  width: 370px;
+  min-height: 373px;
+  margin-top: 50px;
+}
+/* line 60, ../scss/projects.scss */
+.project h3 {
+  font-family: Raleway;
+  color: #c7b29a;
+  font-size: 20px;
+  /* Приближение из-за подстановки шрифтов */
+  font-weight: 500;
+  text-align: left;
+}
+/* line 69, ../scss/projects.scss */
+.project span {
+  font-family: Montserrat;
+  color: #d1d1d1;
+  font-size: 14px;
+  /* Приближение из-за подстановки шрифтов */
+  font-weight: 300;
+  line-height: 20px;
+  /* Приближение из-за подстановки шрифтов */
+  text-align: left;
+}
+/* line 80, ../scss/projects.scss */
+.project h3,
+.project span {
+  padding-left: 20px;
+}
+/* line 85, ../scss/projects.scss */
+.project::before {
+  position: absolute;
+  content: '';
+  width: 0px;
+  height: 0px;
+  border: 25px solid transparent;
+  border-bottom: 15px solid #fbfaf8;
+  left: 50px;
+  bottom: 100px;
+}
+/* line 97, ../scss/projects.scss */
+.project .link {
+  position: absolute;
+  top: 130px;
+  left: 140px;
+  height: 26px;
+  width: 26px;
+}
+/* line 107, ../scss/projects.scss */
+.project .lupa {
+  position: absolute;
+  top: 130px;
+  left: 200px;
+  height: 26px;
+  width: 26px;
+}
+/* line 119, ../scss/projects.scss */
+.project:hover {
+  background-color: #362f2d;
+}
+/* line 122, ../scss/projects.scss */
+.project:hover h3 {
+  color: #ffffff;
+}
+/* line 126, ../scss/projects.scss */
+.project:hover::before {
+  border-bottom: 15px solid #362f2d;
+}
+/* line 133, ../scss/projects.scss */
+.project:hover .link {
+  background-image: url(../img/projects/link.svg);
+}
+/* line 135, ../scss/projects.scss */
+.project:hover .link:hover {
+  background-image: url(../img/projects/link_hover.svg);
+}
+/* line 139, ../scss/projects.scss */
+.project:hover .lupa {
+  background-image: url(../img/projects/lupa.svg);
+}
+/* line 141, ../scss/projects.scss */
+.project:hover .lupa:hover {
+  background-image: url(../img/projects/lupa_hover.svg);
+}
+
+/* line 152, ../scss/projects.scss */
+.load_more {
+  grid-column: 1/4;
+  border-bottom: solid 4px #615855;
+  border-radius: 3px;
+  background-color: #998675;
+  padding: 21px 40px;
+  max-width: 250px;
+  justify-self: center;
+  margin: 50px;
+  font-family: Raleway;
+  color: #ffffff;
+  font-size: 14px;
+  /* Приближение из-за подстановки шрифтов */
+  font-weight: 700;
+  line-height: 23px;
+  /* Приближение из-за подстановки шрифтов */
+  text-align: center;
+  text-transform: uppercase;
+  text-decoration: none;
+}
+/* line 177, ../scss/projects.scss */
+.load_more:hover {
+  border-bottom: solid 2px #615855;
+  border-top: solid 2px #615855;
+  transition: all 0.3s ease-in;
+}
+/* line 183, ../scss/projects.scss */
+.load_more:active {
+  border-bottom: solid 0px #615855;
+  border-top: solid 4px #615855;
+  transition: all 0.3s ease-in;
+}
+
+/* line 2, ../scss/video_presentation.scss */
+.video_presentation .wrapper {
+  width: 100%;
+  max-height: 705px;
+  position: relative;
+  outline: red;
+}
+/* line 9, ../scss/video_presentation.scss */
+.video_presentation video {
+  object-fit: inherit;
+  z-index: 0;
+  position: absolute;
+  controls: active;
+}
+/* line 16, ../scss/video_presentation.scss */
+.video_presentation .h_block {
+  display: flex;
+  flex-direction: column;
+  align-content: center;
+  position: absolute;
+  width: 600px;
+  left: 50%;
+  top: 285px;
+  transform: translate(-50%, 0%);
+}
+/* line 25, ../scss/video_presentation.scss */
+.video_presentation .h_block .play_btn {
+  width: 100px;
+  height: 100px;
+  Border: red;
+  background-image: url(../img/icon-play.svg);
+  align-self: center;
+}
