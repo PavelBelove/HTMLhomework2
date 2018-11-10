@@ -634,12 +634,10 @@ h2 {
   position: relative;
   outline: red;
 }
-/* line 9, ../scss/video_presentation.scss */
+/* line 10, ../scss/video_presentation.scss */
 .video_presentation video {
   object-fit: inherit;
   z-index: 0;
-  position: absolute;
-  controls: active;
 }
 /* line 16, ../scss/video_presentation.scss */
 .video_presentation .h_block {
@@ -652,11 +650,62 @@ h2 {
   top: 285px;
   transform: translate(-50%, 0%);
 }
-/* line 25, ../scss/video_presentation.scss */
+/* line 26, ../scss/video_presentation.scss */
 .video_presentation .h_block .play_btn {
   width: 100px;
   height: 100px;
   Border: red;
-  background-image: url(../img/icon-play.svg);
+  background-image: url(../img/video/icon-play.svg);
   align-self: center;
+}
+/* line 34, ../scss/video_presentation.scss */
+.video_presentation .h_block h2,
+.video_presentation .h_block .about_h2 {
+  color: #fff;
+}
+/* line 40, ../scss/video_presentation.scss */
+.video_presentation .fix_height {
+  display: block;
+  height: 705px;
+}
+
+/* line 1, ../scss/mobile.scss */
+.mobile {
+  background-color: #fbfaf8;
+}
+/* line 4, ../scss/mobile.scss */
+.mobile .wrapper {
+  width: 60%;
+  margin: 0 auto;
+  padding-top: 80px;
+  display: grid;
+  grid-template-columns: 2fr 3fr;
+}
+
+/* line 14, ../scss/mobile.scss */
+.mobile_devises {
+  align-self: center;
+}
+/* line 17, ../scss/mobile.scss */
+.mobile_devises h2,
+.mobile_devises .about_h2 {
+  text-align: left;
+}
+/* line 21, ../scss/mobile.scss */
+.mobile_devises ul {
+  padding-top: 50px;
+}
+/* line 25, ../scss/mobile.scss */
+.mobile_devises li {
+  list-style-type: none;
+  background-image: url(../img/mobile/li_icon.svg);
+  background-repeat: no-repeat;
+  background-position: 0px 7px;
+  font-family: Montserrat;
+  color: #8c8c8c;
+  font-size: 16px;
+  font-weight: 300;
+  padding: 8px 0px;
+  padding-left: 30px;
+  text-align: left;
 }
