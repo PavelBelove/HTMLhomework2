@@ -232,20 +232,21 @@ h2 {
   grid-template-rows: auto auto auto auto;
   width: 80%;
   margin: 0 auto;
+  padding-top: 80px;
 }
-/* line 9, ../scss/projects.scss */
+/* line 10, ../scss/projects.scss */
 .projects .h2_block {
   grid-column: 1/4;
   max-width: 650px;
   justify-self: center;
   text-align: center;
 }
-/* line 16, ../scss/projects.scss */
+/* line 17, ../scss/projects.scss */
 .projects .about_h2 {
   display: block;
   margin-bottom: 50px;
 }
-/* line 21, ../scss/projects.scss */
+/* line 22, ../scss/projects.scss */
 .projects .projects_filter {
   font-family: Montserrat;
   color: #8c8c8c;
@@ -265,13 +266,13 @@ h2 {
   padding: 10px 18px;
   margin-bottom: 50px;
 }
-/* line 40, ../scss/projects.scss */
+/* line 41, ../scss/projects.scss */
 .projects .projects_filter:hover, .projects .projects_filter:active {
   color: #ffffff;
   background-color: #998675;
 }
 
-/* line 51, ../scss/projects.scss */
+/* line 52, ../scss/projects.scss */
 .project {
   display: block;
   position: relative;
@@ -280,7 +281,7 @@ h2 {
   min-height: 373px;
   margin-top: 50px;
 }
-/* line 60, ../scss/projects.scss */
+/* line 61, ../scss/projects.scss */
 .project h3 {
   font-family: Raleway;
   color: #c7b29a;
@@ -289,7 +290,7 @@ h2 {
   font-weight: 500;
   text-align: left;
 }
-/* line 69, ../scss/projects.scss */
+/* line 70, ../scss/projects.scss */
 .project span {
   font-family: Montserrat;
   color: #d1d1d1;
@@ -300,12 +301,12 @@ h2 {
   /* Приближение из-за подстановки шрифтов */
   text-align: left;
 }
-/* line 80, ../scss/projects.scss */
+/* line 81, ../scss/projects.scss */
 .project h3,
 .project span {
   padding-left: 20px;
 }
-/* line 85, ../scss/projects.scss */
+/* line 86, ../scss/projects.scss */
 .project::before {
   position: absolute;
   content: '';
@@ -316,7 +317,7 @@ h2 {
   left: 50px;
   bottom: 100px;
 }
-/* line 97, ../scss/projects.scss */
+/* line 98, ../scss/projects.scss */
 .project .link {
   position: absolute;
   top: 130px;
@@ -324,7 +325,7 @@ h2 {
   height: 26px;
   width: 26px;
 }
-/* line 107, ../scss/projects.scss */
+/* line 108, ../scss/projects.scss */
 .project .lupa {
   position: absolute;
   top: 130px;
@@ -332,36 +333,36 @@ h2 {
   height: 26px;
   width: 26px;
 }
-/* line 119, ../scss/projects.scss */
+/* line 120, ../scss/projects.scss */
 .project:hover {
   background-color: #362f2d;
 }
-/* line 122, ../scss/projects.scss */
+/* line 123, ../scss/projects.scss */
 .project:hover h3 {
   color: #ffffff;
 }
-/* line 126, ../scss/projects.scss */
+/* line 127, ../scss/projects.scss */
 .project:hover::before {
   border-bottom: 15px solid #362f2d;
 }
-/* line 133, ../scss/projects.scss */
+/* line 134, ../scss/projects.scss */
 .project:hover .link {
   background-image: url(../img/projects/link.svg);
 }
-/* line 135, ../scss/projects.scss */
+/* line 136, ../scss/projects.scss */
 .project:hover .link:hover {
   background-image: url(../img/projects/link_hover.svg);
 }
-/* line 139, ../scss/projects.scss */
+/* line 140, ../scss/projects.scss */
 .project:hover .lupa {
   background-image: url(../img/projects/lupa.svg);
 }
-/* line 141, ../scss/projects.scss */
+/* line 142, ../scss/projects.scss */
 .project:hover .lupa:hover {
   background-image: url(../img/projects/lupa_hover.svg);
 }
 
-/* line 152, ../scss/projects.scss */
+/* line 153, ../scss/projects.scss */
 .load_more {
   grid-column: 1/4;
   border-bottom: solid 4px #615855;
@@ -382,13 +383,13 @@ h2 {
   text-transform: uppercase;
   text-decoration: none;
 }
-/* line 177, ../scss/projects.scss */
+/* line 178, ../scss/projects.scss */
 .load_more:hover {
   border-bottom: solid 2px #615855;
   border-top: solid 2px #615855;
   transition: all 0.3s ease-in;
 }
-/* line 183, ../scss/projects.scss */
+/* line 184, ../scss/projects.scss */
 .load_more:active {
   border-bottom: solid 0px #615855;
   border-top: solid 4px #615855;
@@ -493,4 +494,169 @@ h2 {
 /* line 12, ../scss/counters.scss */
 .counters .img {
   margin: 0px 40px;
+}
+
+/* line 1, ../scss/recent_posts.scss */
+.recent_posts {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: auto auto auto;
+  width: 80%;
+  margin: 0 auto;
+  padding-top: 80px;
+  justify-content: center;
+}
+/* line 11, ../scss/recent_posts.scss */
+.recent_posts .h2_block {
+  grid-column: 1/4;
+  max-width: 650px;
+  justify-self: center;
+  text-align: center;
+}
+/* line 17, ../scss/recent_posts.scss */
+.recent_posts .h2_block .about_h2 {
+  display: block;
+  margin-bottom: 50px;
+}
+/* line 28, ../scss/recent_posts.scss */
+.recent_posts .post {
+  display: block;
+  position: relative;
+  background-color: #fbfaf8;
+  width: 370px;
+  min-height: 373px;
+  margin-top: 50px;
+  padding-bottom: 20px;
+}
+/* line 38, ../scss/recent_posts.scss */
+.recent_posts .post h3 {
+  font-family: Raleway;
+  color: #c7b29a;
+  font-size: 20px;
+  /* Приближение из-за подстановки шрифтов */
+  font-weight: 500;
+  text-align: left;
+}
+/* line 47, ../scss/recent_posts.scss */
+.recent_posts .post span {
+  font-family: Montserrat;
+  color: #d1d1d1;
+  font-size: 14px;
+  /* Приближение из-за подстановки шрифтов */
+  font-weight: 300;
+  line-height: 20px;
+  /* Приближение из-за подстановки шрифтов */
+  text-align: left;
+}
+/* line 58, ../scss/recent_posts.scss */
+.recent_posts .post .more {
+  font-family: Montserrat;
+  color: #c7b299;
+  font-size: 14px;
+  font-weight: 300;
+  line-height: 20px;
+  text-decoration: none;
+}
+/* line 69, ../scss/recent_posts.scss */
+.recent_posts .post .more::after {
+  position: absolute;
+  content: '';
+  width: 0px;
+  height: 0px;
+  border: 7px solid transparent;
+  border-left: 5px solid #c7b299;
+  left: 110px;
+  bottom: 22px;
+}
+/* line 84, ../scss/recent_posts.scss */
+.recent_posts .post h3,
+.recent_posts .post span,
+.recent_posts .post .more {
+  padding-left: 20px;
+}
+/* line 91, ../scss/recent_posts.scss */
+.recent_posts .post .date {
+  position: absolute;
+  top: 20px;
+  left: 20px;
+}
+/* line 97, ../scss/recent_posts.scss */
+.recent_posts .post .date h5 {
+  font-family: Montserrat;
+  color: #ffffff;
+  font-size: 24px;
+  /* Приближение из-за подстановки шрифтов */
+  font-weight: 300;
+  line-height: 35px;
+  /* Приближение из-за подстановки шрифтов */
+  text-align: center;
+  margin: 0px;
+  display: block;
+  border-top-left-radius: 3px;
+  border-top-right-radius: 3px;
+  background-color: #363636;
+  width: 50px;
+  height: 35px;
+}
+/* line 115, ../scss/recent_posts.scss */
+.recent_posts .post .date span {
+  font-family: Roboto;
+  color: #ffffff;
+  font-size: 12px;
+  font-weight: 400;
+  line-height: 20px;
+  text-align: center;
+  margin: 0px;
+  padding: 0px;
+  display: block;
+  border-bottom-left-radius: 3px;
+  border-bottom-right-radius: 3px;
+  background-color: #252525;
+  width: 50px;
+  height: 25px;
+}
+/* line 138, ../scss/recent_posts.scss */
+.recent_posts .post:hover {
+  background-color: #362f2d;
+}
+/* line 141, ../scss/recent_posts.scss */
+.recent_posts .post:hover h3 {
+  color: #ffffff;
+}
+/* line 146, ../scss/recent_posts.scss */
+.recent_posts .post:hover .date h5 {
+  background-color: #c7b299;
+}
+/* line 150, ../scss/recent_posts.scss */
+.recent_posts .post:hover .date span {
+  background-color: #a48d72;
+}
+/* line 164, ../scss/recent_posts.scss */
+.recent_posts .wrapper_arrows {
+  grid-column: 1/4;
+  justify-self: center;
+  display: flex;
+  margin: 30px;
+}
+/* line 171, ../scss/recent_posts.scss */
+.recent_posts .wrapper_arrows .left_arrow, .recent_posts .wrapper_arrows .right_arrow {
+  width: 22px;
+  height: 22px;
+  margin: 10px;
+}
+/* line 178, ../scss/recent_posts.scss */
+.recent_posts .wrapper_arrows .left_arrow {
+  background-image: url(../img/posts/left.svg);
+}
+/* line 181, ../scss/recent_posts.scss */
+.recent_posts .wrapper_arrows .right_arrow {
+  background-image: url(../img/posts/right.svg);
+}
+/* line 184, ../scss/recent_posts.scss */
+.recent_posts .wrapper_arrows .left_arrow:hover {
+  background-image: url(../img/posts/left_hover.svg);
+}
+/* line 187, ../scss/recent_posts.scss */
+.recent_posts .wrapper_arrows .right_arrow:hover {
+  background-image: url(../img/posts/right_hover.svg);
 }
