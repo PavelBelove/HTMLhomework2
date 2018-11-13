@@ -953,3 +953,19 @@ h2 {
 .recent_posts .wrapper_arrows .right_arrow:hover {
   background-image: url(../img/posts/right_hover.svg);
 }
+
+/* line 1, ../scss/partners.scss */
+.partners {
+  background-image: url(../img/footer/photo.jpg);
+  background-size: cover;
+}
+/* line 5, ../scss/partners.scss */
+.partners figure {
+  display: grid;
+  width: 60%;
+  padding: 140px 0px;
+  margin: 0 auto;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  justify-content: center;
+  align-items: center;
+}
