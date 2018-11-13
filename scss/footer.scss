@@ -1,0 +1,153 @@
+.footer_top {
+    background-color: #191919;
+    padding: 5rem 0;
+
+    p {
+        font-family: Montserrat;
+        color: #545454;
+        font-size: 14px;
+        /* Приближение из-за подстановки шрифтов */
+        font-weight: 300;
+        line-height: 24px;
+        /* Приближение из-за подстановки шрифтов */
+        text-align: left;
+    }
+
+    h4 {
+        font-family: Raleway;
+        color: #ffffff;
+        font-size: 24px;
+        /* Приближение из-за подстановки шрифтов */
+        font-weight: 700;
+        text-align: left;
+    }
+
+    .post {
+        text-decoration: none;
+
+        &:hover {
+            p {
+                color: #c7b299;
+            }
+
+            span {
+                color: #ffffff;
+            }
+        }
+    }
+
+    span {
+        font-family: Montserrat;
+        color: #363636;
+        font-size: 12px;
+        /* Приближение из-за подстановки шрифтов */
+        font-weight: 300;
+        line-height: 20px;
+        /* Приближение из-за подстановки шрифтов */
+        text-align: left;
+
+
+    }
+
+    hr {
+        border: none;
+        background-color: #363636;
+        height: 1px;
+    }
+
+    .wrapper {
+        margin: 0 auto;
+        width: 60%;
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr 1fr;
+
+        .column {
+            padding: 0 1rem;
+        }
+
+        .logo {
+            // Style for "Waxom"
+            width: auto;
+            height: auto;
+            color: #ffffff;
+
+
+            margin-left: 1rem;
+            // Text style for "Waxom"
+            font-family: Raleway;
+            font-size: 2.125rem;
+            font-weight: 400;
+
+            letter-spacing: -0.085rem;
+            text-decoration: none;
+            fill: #fff;
+            flood-color: rgb(255, 255, 255);
+
+            &:hover {
+                color: #998675;
+                fill: #998675;
+                flood-color: #998675;
+                transition: all 0.3s ease-in;
+            }
+        }
+
+        .more {
+            font-family: Montserrat;
+            color: #c7b299;
+            font-size: 14px;
+            font-weight: 300;
+            line-height: 20px;
+            text-decoration: none;
+            position: relative;
+
+
+
+            &::after {
+                position: absolute;
+                content: '';
+                width: 0px;
+                height: 0px;
+                border: 7px solid transparent;
+                border-left: 5px solid #c7b299;
+                left: 100px;
+                bottom: 2px;
+
+            }
+
+        }
+
+        .twit {
+            color: #00bff3;
+            font-family: Montserrat;
+
+            font-size: 14px;
+            /* Приближение из-за подстановки шрифтов */
+            font-weight: 300;
+            line-height: 24px;
+            /* Приближение из-за подстановки шрифтов */
+            text-align: left;
+        }
+
+        .bit {
+            font-family: Montserrat;
+            color: #959595;
+            font-size: 14px;
+            /* Приближение из-за подстановки шрифтов */
+            font-weight: 300;
+            line-height: 20px;
+            text-decoration: none;
+        }
+
+    }
+    .widget {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: 1fr 1fr;
+        figure {
+            margin: 5px;
+        }
+        
+    }
+
+
+}
