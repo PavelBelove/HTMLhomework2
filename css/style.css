@@ -1098,13 +1098,51 @@ h2 {
   line-height: 20px;
   text-decoration: none;
 }
-/* line 142, ../scss/footer.scss */
+/* line 143, ../scss/footer.scss */
 .footer_top .widget {
   display: grid;
   grid-template-columns: 1fr 1fr;
   grid-template-rows: 1fr 1fr;
 }
-/* line 146, ../scss/footer.scss */
+/* line 148, ../scss/footer.scss */
 .footer_top .widget figure {
   margin: 5px;
+}
+
+/* line 156, ../scss/footer.scss */
+.footer_bottom {
+  background-color: #111111;
+  padding: 2rem 0;
+}
+/* line 160, ../scss/footer.scss */
+.footer_bottom .wrapper {
+  margin: 0 auto;
+  width: 60%;
+  display: flex;
+  justify-content: space-between;
+}
+/* line 166, ../scss/footer.scss */
+.footer_bottom .wrapper ul {
+  list-style: none;
+  display: flex;
+}
+/* line 172, ../scss/footer.scss */
+.footer_bottom .wrapper li {
+  font-family: Montserrat;
+  color: #545454;
+  font-size: 13px;
+  /* Приближение из-за подстановки шрифтов */
+  font-weight: 300;
+  line-height: 20px;
+  /* Приближение из-за подстановки шрифтов */
+  text-align: left;
+  margin: 0px 10px;
+}
+/* line 182, ../scss/footer.scss */
+.footer_bottom .wrapper li:hover {
+  color: #c7b299;
+}
+/* line 188, ../scss/footer.scss */
+.footer_bottom .wrapper .c7b {
+  color: #c7b299;
 }

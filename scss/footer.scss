@@ -139,14 +139,55 @@
         }
 
     }
+
     .widget {
         display: grid;
         grid-template-columns: 1fr 1fr;
         grid-template-rows: 1fr 1fr;
+
         figure {
             margin: 5px;
         }
-        
+
+    }
+
+}
+
+.footer_bottom {
+    background-color: #111111;
+    padding: 2rem 0;
+
+    .wrapper {
+        margin: 0 auto;
+        width: 60%;
+        display: flex;
+        justify-content: space-between;
+
+        ul {
+            list-style: none;
+            display: flex;
+
+        }
+
+        li {
+            font-family: Montserrat;
+            color: #545454;
+            font-size: 13px;
+            /* Приближение из-за подстановки шрифтов */
+            font-weight: 300;
+            line-height: 20px;
+            /* Приближение из-за подстановки шрифтов */
+            text-align: left;
+            margin: 0px 10px;
+            &:hover {
+                color:  #c7b299;
+            }
+            
+
+        }
+        .c7b {
+                color:  #c7b299;
+            }
     }
 
 
