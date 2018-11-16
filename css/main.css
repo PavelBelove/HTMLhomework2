@@ -8,7 +8,7 @@ h2 {
   text-align: center;
 }
 
-/* line 10, ../scss/main.scss */
+/* line 9, ../scss/main.scss */
 .about_h2 {
   font-family: Montserrat;
   color: #8c8c8c;
@@ -233,20 +233,21 @@ h2 {
   width: 80%;
   margin: 0 auto;
   padding-top: 80px;
+  justify-items: center;
 }
-/* line 10, ../scss/projects.scss */
+/* line 11, ../scss/projects.scss */
 .projects .h2_block {
   grid-column: 1/4;
   max-width: 650px;
   justify-self: center;
   text-align: center;
 }
-/* line 17, ../scss/projects.scss */
+/* line 18, ../scss/projects.scss */
 .projects .about_h2 {
   display: block;
   margin-bottom: 50px;
 }
-/* line 22, ../scss/projects.scss */
+/* line 23, ../scss/projects.scss */
 .projects .projects_filter {
   font-family: Montserrat;
   color: #8c8c8c;
@@ -266,13 +267,13 @@ h2 {
   padding: 10px 18px;
   margin-bottom: 50px;
 }
-/* line 41, ../scss/projects.scss */
+/* line 42, ../scss/projects.scss */
 .projects .projects_filter:hover, .projects .projects_filter:active {
   color: #ffffff;
   background-color: #998675;
 }
 
-/* line 52, ../scss/projects.scss */
+/* line 53, ../scss/projects.scss */
 .project {
   display: block;
   position: relative;
@@ -281,7 +282,7 @@ h2 {
   min-height: 373px;
   margin-top: 50px;
 }
-/* line 61, ../scss/projects.scss */
+/* line 62, ../scss/projects.scss */
 .project h3 {
   font-family: Raleway;
   color: #c7b29a;
@@ -290,7 +291,7 @@ h2 {
   font-weight: 500;
   text-align: left;
 }
-/* line 70, ../scss/projects.scss */
+/* line 71, ../scss/projects.scss */
 .project span {
   font-family: Montserrat;
   color: #d1d1d1;
@@ -301,12 +302,12 @@ h2 {
   /* Приближение из-за подстановки шрифтов */
   text-align: left;
 }
-/* line 81, ../scss/projects.scss */
+/* line 82, ../scss/projects.scss */
 .project h3,
 .project span {
   padding-left: 20px;
 }
-/* line 86, ../scss/projects.scss */
+/* line 87, ../scss/projects.scss */
 .project::before {
   position: absolute;
   content: '';
@@ -317,7 +318,7 @@ h2 {
   left: 50px;
   bottom: 100px;
 }
-/* line 98, ../scss/projects.scss */
+/* line 99, ../scss/projects.scss */
 .project .link {
   position: absolute;
   top: 130px;
@@ -325,7 +326,7 @@ h2 {
   height: 26px;
   width: 26px;
 }
-/* line 108, ../scss/projects.scss */
+/* line 109, ../scss/projects.scss */
 .project .lupa {
   position: absolute;
   top: 130px;
@@ -333,36 +334,36 @@ h2 {
   height: 26px;
   width: 26px;
 }
-/* line 120, ../scss/projects.scss */
+/* line 121, ../scss/projects.scss */
 .project:hover {
   background-color: #362f2d;
 }
-/* line 123, ../scss/projects.scss */
+/* line 124, ../scss/projects.scss */
 .project:hover h3 {
   color: #ffffff;
 }
-/* line 127, ../scss/projects.scss */
+/* line 128, ../scss/projects.scss */
 .project:hover::before {
   border-bottom: 15px solid #362f2d;
 }
-/* line 134, ../scss/projects.scss */
+/* line 135, ../scss/projects.scss */
 .project:hover .link {
   background-image: url(../img/projects/link.svg);
 }
-/* line 136, ../scss/projects.scss */
+/* line 137, ../scss/projects.scss */
 .project:hover .link:hover {
   background-image: url(../img/projects/link_hover.svg);
 }
-/* line 140, ../scss/projects.scss */
+/* line 141, ../scss/projects.scss */
 .project:hover .lupa {
   background-image: url(../img/projects/lupa.svg);
 }
-/* line 142, ../scss/projects.scss */
+/* line 143, ../scss/projects.scss */
 .project:hover .lupa:hover {
   background-image: url(../img/projects/lupa_hover.svg);
 }
 
-/* line 153, ../scss/projects.scss */
+/* line 154, ../scss/projects.scss */
 .load_more {
   grid-column: 1/4;
   border-bottom: solid 4px #615855;
@@ -383,13 +384,13 @@ h2 {
   text-transform: uppercase;
   text-decoration: none;
 }
-/* line 178, ../scss/projects.scss */
+/* line 179, ../scss/projects.scss */
 .load_more:hover {
   border-bottom: solid 2px #615855;
   border-top: solid 2px #615855;
   transition: all 0.3s ease-in;
 }
-/* line 184, ../scss/projects.scss */
+/* line 185, ../scss/projects.scss */
 .load_more:active {
   border-bottom: solid 0px #615855;
   border-top: solid 4px #615855;
@@ -504,7 +505,7 @@ h2 {
   width: 80%;
   margin: 0 auto;
   padding-top: 80px;
-  justify-content: center;
+  justify-items: center;
 }
 /* line 11, ../scss/recent_posts.scss */
 .recent_posts .h2_block {
