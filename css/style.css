@@ -128,7 +128,7 @@ header .header_top #menu {
   visibility: hidden;
 }
 /* line 61, ../scss/header.scss */
-header .header_top input[type="checkbox"]:checked ~ .menu {
+header .header_top input[type="checkbox"]:checked ~ .show_menu {
   visibility: visible;
 }
 /* line 65, ../scss/header.scss */
@@ -1208,36 +1208,37 @@ h2 {
     font-size: 0.5rem;
   }
 
-  /* line 49, ../scss/media.scss */
-  header .m_menu {
+  /* line 50, ../scss/media.scss */
+  header .header_top .m_menu {
     visibility: visible;
   }
-
-  /* line 54, ../scss/media.scss */
-  .main_menu {
-    margin-top: 30%;
+  /* line 55, ../scss/media.scss */
+  header .main_menu {
+    margin-top: 50%;
     display: flex;
     flex-direction: column;
     align-items: flex-start;
   }
   /* line 60, ../scss/media.scss */
-  .main_menu li {
+  header .main_menu .show_menu {
+    visibility: hidden;
+  }
+  /* line 64, ../scss/media.scss */
+  header .main_menu li {
     font-size: 1.5rem;
     height: 0.688rem;
   }
-  /* line 65, ../scss/media.scss */
-  .main_menu .sertch-icon {
+  /* line 69, ../scss/media.scss */
+  header .main_menu .sertch-icon {
     display: none;
   }
-
-  /* line 70, ../scss/media.scss */
-  .header-center {
+  /* line 74, ../scss/media.scss */
+  header .header-center {
     grid-template-columns: 1fr 10fr 1fr;
   }
-
-  /* line 75, ../scss/media.scss */
-  .left_slide,
-  .right_slide {
+  /* line 79, ../scss/media.scss */
+  header .left_slide,
+  header .right_slide {
     visibility: hidden;
   }
 }

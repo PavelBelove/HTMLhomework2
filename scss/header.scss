@@ -58,7 +58,7 @@ header {
             visibility: hidden;
         }
 
-        input[type="checkbox"]:checked ~ .menu {
+        input[type="checkbox"]:checked ~ .show_menu {
             visibility: visible;
         }
 
