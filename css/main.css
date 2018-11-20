@@ -175,7 +175,7 @@ h2 {
 .wp_theme h3 {
   font-family: Raleway;
   color: #ffffff;
-  font-size: 28px;
+  font-size: 1.75rem;
   font-weight: 400;
   text-align: left;
   font-family: Raleway;
@@ -189,7 +189,7 @@ h2 {
 .wp_theme .wp_span {
   font-family: Montserrat;
   color: #615855;
-  font-size: 18px;
+  font-size: 1.125rem;
   font-weight: 300;
   text-align: left;
 }
@@ -198,12 +198,12 @@ h2 {
   border-bottom: solid 4px #615855;
   border-radius: 3px;
   background-color: #998675;
-  padding: 21px 40px;
+  padding: 1.3rem 40px;
   max-width: 170px;
   align-self: center;
   font-family: Raleway;
   color: #ffffff;
-  font-size: 14px;
+  font-size: 0.9rem;
   /* Приближение из-за подстановки шрифтов */
   font-weight: 700;
   line-height: 23px;
@@ -251,7 +251,7 @@ h2 {
 .projects .projects_filter {
   font-family: Montserrat;
   color: #8c8c8c;
-  font-size: 14px;
+  font-size: 0.9rem;
   /* Приближение из-за подстановки шрифтов */
   font-weight: 300;
   line-height: 21px;
@@ -490,7 +490,7 @@ h2 {
   background: -ms-linear-gradient(0deg, #211b19 0%, #4e3427 100%);
   background: linear-gradient(90deg, #211b19 0%, #4e3427 100%);
   width: 100%;
-  padding: 70px 00px;
+  padding: 70px 0px;
 }
 /* line 12, ../scss/counters.scss */
 .counters .img {
@@ -632,32 +632,32 @@ h2 {
 .recent_posts .post:hover .date span {
   background-color: #a48d72;
 }
-/* line 164, ../scss/recent_posts.scss */
+/* line 158, ../scss/recent_posts.scss */
 .recent_posts .wrapper_arrows {
   grid-column: 1/4;
   justify-self: center;
   display: flex;
   margin: 30px;
 }
-/* line 171, ../scss/recent_posts.scss */
+/* line 165, ../scss/recent_posts.scss */
 .recent_posts .wrapper_arrows .left_arrow, .recent_posts .wrapper_arrows .right_arrow {
   width: 22px;
   height: 22px;
   margin: 10px;
 }
-/* line 178, ../scss/recent_posts.scss */
+/* line 172, ../scss/recent_posts.scss */
 .recent_posts .wrapper_arrows .left_arrow {
   background-image: url(../img/posts/left.svg);
 }
-/* line 181, ../scss/recent_posts.scss */
+/* line 175, ../scss/recent_posts.scss */
 .recent_posts .wrapper_arrows .right_arrow {
   background-image: url(../img/posts/right.svg);
 }
-/* line 184, ../scss/recent_posts.scss */
+/* line 178, ../scss/recent_posts.scss */
 .recent_posts .wrapper_arrows .left_arrow:hover {
   background-image: url(../img/posts/left_hover.svg);
 }
-/* line 187, ../scss/recent_posts.scss */
+/* line 181, ../scss/recent_posts.scss */
 .recent_posts .wrapper_arrows .right_arrow:hover {
   background-image: url(../img/posts/right_hover.svg);
 }
