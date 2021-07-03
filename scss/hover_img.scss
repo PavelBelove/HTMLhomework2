@@ -1,0 +1,43 @@
+.hover_img {
+    background-color: #fbfaf8;
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    padding-top: 80px;
+
+    .wrapper {
+        padding-top: 40px;
+        position: relative;
+        background-color: #fbfaf8;
+        height: 482px;
+    }
+
+    img {
+        position: absolute;
+    }
+
+    .left_img {
+        left: 40%;
+        transform: translate(-50%, 20%);
+
+        &:hover {
+            z-index: 1;
+        }
+    }
+
+    .right_img {
+        left: 60%;
+        transform: translate(-50%, 20%);
+
+        &:hover {
+            z-index: 3;
+           
+        }
+    }
+
+    .center_img {
+        left: 50%;
+        transform: translate(-50%, 0%);
+    }
+
+}

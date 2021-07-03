@@ -1,0 +1,679 @@
+@charset "UTF-8";
+/* line 1, ../scss/main.scss */
+h2 {
+  font-family: Raleway;
+  color: #555555;
+  font-size: 30px;
+  font-weight: 600;
+  text-align: center;
+}
+
+/* line 9, ../scss/main.scss */
+.about_h2 {
+  font-family: Montserrat;
+  color: #8c8c8c;
+  font-size: 16px;
+  font-weight: 300;
+  line-height: 28px;
+  text-align: center;
+}
+
+/* line 1, ../scss/servises.scss */
+.servises {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding-bottom: 3rem;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  justify-content: center;
+}
+/* line 9, ../scss/servises.scss */
+.servises a {
+  text-decoration: none;
+  padding-top: 3rem;
+  margin-top: 3rem;
+  background-repeat: no-repeat;
+  background-position: center 0;
+  display: block;
+  position: relative;
+}
+/* line 19, ../scss/servises.scss */
+.servises a:hover h3 {
+  color: #c7b299;
+  transition: all 0.3s ease-in;
+}
+/* line 24, ../scss/servises.scss */
+.servises a:hover .line {
+  background-color: #c7b299;
+  transition: all 0.3s ease-in;
+}
+/* line 34, ../scss/servises.scss */
+.servises h3 {
+  font-family: Raleway;
+  color: #555555;
+  font-size: 22px;
+  /* Приближение из-за подстановки шрифтов */
+  font-weight: 600;
+  text-align: center;
+}
+/* line 45, ../scss/servises.scss */
+.servises p {
+  font-family: Montserrat;
+  color: #8c8c8c;
+  font-size: 14px;
+  /* Приближение из-за подстановки шрифтов */
+  font-weight: 300;
+  line-height: 24px;
+  /* Приближение из-за подстановки шрифтов */
+  text-align: center;
+}
+/* line 56, ../scss/servises.scss */
+.servises .line {
+  display: block;
+  background-color: #f1eee9;
+  width: 70px;
+  height: 3px;
+  margin: 0px auto;
+}
+
+/* line 67, ../scss/servises.scss */
+.servis_1 {
+  background-image: url(../img/servises/icon_1.svg);
+}
+/* line 71, ../scss/servises.scss */
+.servis_1:hover {
+  background-image: url(../img/servises/icon_1_hover.svg);
+  transition: all 0.3s ease-in;
+}
+
+/* line 78, ../scss/servises.scss */
+.servis_2 {
+  background-image: url(../img/servises/icon_2.svg);
+}
+/* line 82, ../scss/servises.scss */
+.servis_2:hover {
+  background-image: url(../img/servises/icon_2_hover.svg);
+  transition: all 0.3s ease-in;
+}
+
+/* line 88, ../scss/servises.scss */
+.servis_3 {
+  background-image: url(../img/servises/icon_3.svg);
+}
+/* line 92, ../scss/servises.scss */
+.servis_3:hover {
+  background-image: url(../img/servises/icon_3_hover.svg);
+  transition: all 0.3s ease-in;
+}
+
+/* line 98, ../scss/servises.scss */
+.servis_4 {
+  background-image: url(../img/servises/icon_4.svg);
+}
+/* line 102, ../scss/servises.scss */
+.servis_4:hover {
+  background-image: url(../img/servises/icon_4_hover.svg);
+  transition: all 0.3s ease-in;
+}
+
+/* line 1, ../scss/hover_img.scss */
+.hover_img {
+  background-color: #fbfaf8;
+  display: flex;
+  flex-direction: column;
+  align-content: center;
+  padding-top: 80px;
+}
+/* line 8, ../scss/hover_img.scss */
+.hover_img .wrapper {
+  padding-top: 40px;
+  position: relative;
+  background-color: #fbfaf8;
+  height: 482px;
+}
+/* line 15, ../scss/hover_img.scss */
+.hover_img img {
+  position: absolute;
+}
+/* line 19, ../scss/hover_img.scss */
+.hover_img .left_img {
+  left: 40%;
+  transform: translate(-50%, 20%);
+}
+/* line 23, ../scss/hover_img.scss */
+.hover_img .left_img:hover {
+  z-index: 1;
+}
+/* line 28, ../scss/hover_img.scss */
+.hover_img .right_img {
+  left: 60%;
+  transform: translate(-50%, 20%);
+}
+/* line 32, ../scss/hover_img.scss */
+.hover_img .right_img:hover {
+  z-index: 3;
+}
+/* line 38, ../scss/hover_img.scss */
+.hover_img .center_img {
+  left: 50%;
+  transform: translate(-50%, 0%);
+}
+
+/* line 1, ../scss/wp_theme.scss */
+.wp_theme {
+  display: flex;
+  justify-content: space-around;
+  padding: 3rem 00%;
+  background-color: #fff;
+  background: -webkit-linear-gradient(0deg, #211b19 0%, #4e3427 100%);
+  background: -moz-linear-gradient(0deg, #211b19 0%, #4e3427 100%);
+  background: -o-linear-gradient(0deg, #211b19 0%, #4e3427 100%);
+  background: -ms-linear-gradient(0deg, #211b19 0%, #4e3427 100%);
+  background: linear-gradient(90deg, #211b19 0%, #4e3427 100%);
+}
+/* line 12, ../scss/wp_theme.scss */
+.wp_theme h3 {
+  font-family: Raleway;
+  color: #ffffff;
+  font-size: 1.75rem;
+  font-weight: 400;
+  text-align: left;
+  font-family: Raleway;
+  margin-top: 0px;
+}
+/* line 22, ../scss/wp_theme.scss */
+.wp_theme .gold_txt {
+  color: #c7b299;
+}
+/* line 26, ../scss/wp_theme.scss */
+.wp_theme .wp_span {
+  font-family: Montserrat;
+  color: #615855;
+  font-size: 1.125rem;
+  font-weight: 300;
+  text-align: left;
+}
+/* line 34, ../scss/wp_theme.scss */
+.wp_theme .purshare {
+  border-bottom: solid 4px #615855;
+  border-radius: 3px;
+  background-color: #998675;
+  padding: 1.3rem 40px;
+  max-width: 170px;
+  align-self: center;
+  font-family: Raleway;
+  color: #ffffff;
+  font-size: 0.9rem;
+  /* Приближение из-за подстановки шрифтов */
+  font-weight: 700;
+  line-height: 23px;
+  /* Приближение из-за подстановки шрифтов */
+  text-align: center;
+  text-transform: uppercase;
+  text-decoration: none;
+}
+/* line 56, ../scss/wp_theme.scss */
+.wp_theme .purshare:hover {
+  border-bottom: solid 2px #615855;
+  border-top: solid 2px #615855;
+  transition: all 0.3s ease-in;
+}
+/* line 62, ../scss/wp_theme.scss */
+.wp_theme .purshare:active {
+  border-bottom: solid 0px #615855;
+  border-top: solid 4px #615855;
+  transition: all 0.3s ease-in;
+}
+
+/* line 1, ../scss/projects.scss */
+.projects {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: auto auto auto auto;
+  width: 80%;
+  margin: 0 auto;
+  padding-top: 80px;
+  justify-items: center;
+}
+/* line 11, ../scss/projects.scss */
+.projects .h2_block {
+  grid-column: 1/4;
+  max-width: 650px;
+  justify-self: center;
+  text-align: center;
+}
+/* line 18, ../scss/projects.scss */
+.projects .about_h2 {
+  display: block;
+  margin-bottom: 50px;
+}
+/* line 23, ../scss/projects.scss */
+.projects .projects_filter {
+  font-family: Montserrat;
+  color: #8c8c8c;
+  font-size: 0.9rem;
+  /* Приближение из-за подстановки шрифтов */
+  font-weight: 300;
+  line-height: 21px;
+  /* Приближение из-за подстановки шрифтов */
+  text-align: center;
+  text-decoration: none;
+  border-radius: 3px;
+  border-style: solid;
+  border-width: 1px;
+  border-color: #ebebeb;
+  box-sizing: border-box;
+  background-color: rgba(17, 17, 17, 0);
+  padding: 10px 18px;
+  margin-bottom: 50px;
+}
+/* line 42, ../scss/projects.scss */
+.projects .projects_filter:hover, .projects .projects_filter:active {
+  color: #ffffff;
+  background-color: #998675;
+}
+
+/* line 53, ../scss/projects.scss */
+.project {
+  display: block;
+  position: relative;
+  background-color: #fbfaf8;
+  width: 370px;
+  min-height: 373px;
+  margin-top: 50px;
+}
+/* line 62, ../scss/projects.scss */
+.project h3 {
+  font-family: Raleway;
+  color: #c7b29a;
+  font-size: 20px;
+  /* Приближение из-за подстановки шрифтов */
+  font-weight: 500;
+  text-align: left;
+}
+/* line 71, ../scss/projects.scss */
+.project span {
+  font-family: Montserrat;
+  color: #d1d1d1;
+  font-size: 14px;
+  /* Приближение из-за подстановки шрифтов */
+  font-weight: 300;
+  line-height: 20px;
+  /* Приближение из-за подстановки шрифтов */
+  text-align: left;
+}
+/* line 82, ../scss/projects.scss */
+.project h3,
+.project span {
+  padding-left: 20px;
+}
+/* line 87, ../scss/projects.scss */
+.project::before {
+  position: absolute;
+  content: '';
+  width: 0px;
+  height: 0px;
+  border: 25px solid transparent;
+  border-bottom: 15px solid #fbfaf8;
+  left: 50px;
+  bottom: 100px;
+}
+/* line 99, ../scss/projects.scss */
+.project .link {
+  position: absolute;
+  top: 130px;
+  left: 140px;
+  height: 26px;
+  width: 26px;
+}
+/* line 109, ../scss/projects.scss */
+.project .lupa {
+  position: absolute;
+  top: 130px;
+  left: 200px;
+  height: 26px;
+  width: 26px;
+}
+/* line 121, ../scss/projects.scss */
+.project:hover {
+  background-color: #362f2d;
+}
+/* line 124, ../scss/projects.scss */
+.project:hover h3 {
+  color: #ffffff;
+}
+/* line 128, ../scss/projects.scss */
+.project:hover::before {
+  border-bottom: 15px solid #362f2d;
+}
+/* line 135, ../scss/projects.scss */
+.project:hover .link {
+  background-image: url(../img/projects/link.svg);
+}
+/* line 137, ../scss/projects.scss */
+.project:hover .link:hover {
+  background-image: url(../img/projects/link_hover.svg);
+}
+/* line 141, ../scss/projects.scss */
+.project:hover .lupa {
+  background-image: url(../img/projects/lupa.svg);
+}
+/* line 143, ../scss/projects.scss */
+.project:hover .lupa:hover {
+  background-image: url(../img/projects/lupa_hover.svg);
+}
+
+/* line 154, ../scss/projects.scss */
+.load_more {
+  grid-column: 1/4;
+  border-bottom: solid 4px #615855;
+  border-radius: 3px;
+  background-color: #998675;
+  padding: 21px 40px;
+  max-width: 250px;
+  justify-self: center;
+  margin: 50px;
+  font-family: Raleway;
+  color: #ffffff;
+  font-size: 14px;
+  /* Приближение из-за подстановки шрифтов */
+  font-weight: 700;
+  line-height: 23px;
+  /* Приближение из-за подстановки шрифтов */
+  text-align: center;
+  text-transform: uppercase;
+  text-decoration: none;
+}
+/* line 179, ../scss/projects.scss */
+.load_more:hover {
+  border-bottom: solid 2px #615855;
+  border-top: solid 2px #615855;
+  transition: all 0.3s ease-in;
+}
+/* line 185, ../scss/projects.scss */
+.load_more:active {
+  border-bottom: solid 0px #615855;
+  border-top: solid 4px #615855;
+  transition: all 0.3s ease-in;
+}
+
+/* line 2, ../scss/video_presentation.scss */
+.video_presentation .wrapper {
+  width: 100%;
+  max-height: 705px;
+  position: relative;
+  outline: red;
+}
+/* line 10, ../scss/video_presentation.scss */
+.video_presentation video {
+  object-fit: inherit;
+  z-index: 0;
+}
+/* line 16, ../scss/video_presentation.scss */
+.video_presentation .h_block {
+  display: flex;
+  flex-direction: column;
+  align-content: center;
+  position: absolute;
+  width: 600px;
+  left: 50%;
+  top: 285px;
+  transform: translate(-50%, 0%);
+}
+/* line 26, ../scss/video_presentation.scss */
+.video_presentation .h_block .play_btn {
+  width: 100px;
+  height: 100px;
+  Border: red;
+  background-image: url(../img/video/icon-play.svg);
+  align-self: center;
+}
+/* line 34, ../scss/video_presentation.scss */
+.video_presentation .h_block h2,
+.video_presentation .h_block .about_h2 {
+  color: #fff;
+}
+/* line 40, ../scss/video_presentation.scss */
+.video_presentation .fix_height {
+  display: block;
+  height: 705px;
+}
+
+/* line 1, ../scss/mobile.scss */
+.mobile {
+  background-color: #fbfaf8;
+}
+/* line 4, ../scss/mobile.scss */
+.mobile .wrapper {
+  width: 60%;
+  margin: 0 auto;
+  padding-top: 80px;
+  display: grid;
+  grid-template-columns: 2fr 3fr;
+}
+
+/* line 14, ../scss/mobile.scss */
+.mobile_devises {
+  align-self: center;
+}
+/* line 17, ../scss/mobile.scss */
+.mobile_devises h2,
+.mobile_devises .about_h2 {
+  text-align: left;
+}
+/* line 21, ../scss/mobile.scss */
+.mobile_devises ul {
+  padding-top: 50px;
+}
+/* line 25, ../scss/mobile.scss */
+.mobile_devises li {
+  list-style-type: none;
+  background-image: url(../img/mobile/li_icon.svg);
+  background-repeat: no-repeat;
+  background-position: 0px 7px;
+  font-family: Montserrat;
+  color: #8c8c8c;
+  font-size: 16px;
+  font-weight: 300;
+  padding: 8px 0px;
+  padding-left: 30px;
+  text-align: left;
+}
+
+/* line 1, ../scss/counters.scss */
+.counters {
+  display: flex;
+  justify-content: center;
+  background: -webkit-linear-gradient(0deg, #211b19 0%, #4e3427 100%);
+  background: -moz-linear-gradient(0deg, #211b19 0%, #4e3427 100%);
+  background: -o-linear-gradient(0deg, #211b19 0%, #4e3427 100%);
+  background: -ms-linear-gradient(0deg, #211b19 0%, #4e3427 100%);
+  background: linear-gradient(90deg, #211b19 0%, #4e3427 100%);
+  width: 100%;
+  padding: 70px 0px;
+}
+/* line 12, ../scss/counters.scss */
+.counters .img {
+  margin: 0px 40px;
+}
+
+/* line 1, ../scss/recent_posts.scss */
+.recent_posts {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: auto auto auto;
+  width: 80%;
+  margin: 0 auto;
+  padding-top: 80px;
+  justify-items: center;
+}
+/* line 11, ../scss/recent_posts.scss */
+.recent_posts .h2_block {
+  grid-column: 1/4;
+  max-width: 650px;
+  justify-self: center;
+  text-align: center;
+}
+/* line 17, ../scss/recent_posts.scss */
+.recent_posts .h2_block .about_h2 {
+  display: block;
+  margin-bottom: 50px;
+}
+/* line 28, ../scss/recent_posts.scss */
+.recent_posts .post {
+  display: block;
+  position: relative;
+  background-color: #fbfaf8;
+  width: 370px;
+  min-height: 373px;
+  margin-top: 50px;
+  padding-bottom: 20px;
+}
+/* line 38, ../scss/recent_posts.scss */
+.recent_posts .post h3 {
+  font-family: Raleway;
+  color: #c7b29a;
+  font-size: 20px;
+  /* Приближение из-за подстановки шрифтов */
+  font-weight: 500;
+  text-align: left;
+}
+/* line 47, ../scss/recent_posts.scss */
+.recent_posts .post span {
+  font-family: Montserrat;
+  color: #d1d1d1;
+  font-size: 14px;
+  /* Приближение из-за подстановки шрифтов */
+  font-weight: 300;
+  line-height: 20px;
+  /* Приближение из-за подстановки шрифтов */
+  text-align: left;
+}
+/* line 58, ../scss/recent_posts.scss */
+.recent_posts .post .more {
+  font-family: Montserrat;
+  color: #c7b299;
+  font-size: 14px;
+  font-weight: 300;
+  line-height: 20px;
+  text-decoration: none;
+}
+/* line 69, ../scss/recent_posts.scss */
+.recent_posts .post .more::after {
+  position: absolute;
+  content: '';
+  width: 0px;
+  height: 0px;
+  border: 7px solid transparent;
+  border-left: 5px solid #c7b299;
+  left: 110px;
+  bottom: 22px;
+}
+/* line 84, ../scss/recent_posts.scss */
+.recent_posts .post h3,
+.recent_posts .post span,
+.recent_posts .post .more {
+  padding-left: 20px;
+}
+/* line 91, ../scss/recent_posts.scss */
+.recent_posts .post .date {
+  position: absolute;
+  top: 20px;
+  left: 20px;
+}
+/* line 97, ../scss/recent_posts.scss */
+.recent_posts .post .date h5 {
+  font-family: Montserrat;
+  color: #ffffff;
+  font-size: 24px;
+  /* Приближение из-за подстановки шрифтов */
+  font-weight: 300;
+  line-height: 35px;
+  /* Приближение из-за подстановки шрифтов */
+  text-align: center;
+  margin: 0px;
+  display: block;
+  border-top-left-radius: 3px;
+  border-top-right-radius: 3px;
+  background-color: #363636;
+  width: 50px;
+  height: 35px;
+}
+/* line 115, ../scss/recent_posts.scss */
+.recent_posts .post .date span {
+  font-family: Roboto;
+  color: #ffffff;
+  font-size: 12px;
+  font-weight: 400;
+  line-height: 20px;
+  text-align: center;
+  margin: 0px;
+  padding: 0px;
+  display: block;
+  border-bottom-left-radius: 3px;
+  border-bottom-right-radius: 3px;
+  background-color: #252525;
+  width: 50px;
+  height: 25px;
+}
+/* line 138, ../scss/recent_posts.scss */
+.recent_posts .post:hover {
+  background-color: #362f2d;
+}
+/* line 141, ../scss/recent_posts.scss */
+.recent_posts .post:hover h3 {
+  color: #ffffff;
+}
+/* line 146, ../scss/recent_posts.scss */
+.recent_posts .post:hover .date h5 {
+  background-color: #c7b299;
+}
+/* line 150, ../scss/recent_posts.scss */
+.recent_posts .post:hover .date span {
+  background-color: #a48d72;
+}
+/* line 158, ../scss/recent_posts.scss */
+.recent_posts .wrapper_arrows {
+  grid-column: 1/4;
+  justify-self: center;
+  display: flex;
+  margin: 30px;
+}
+/* line 165, ../scss/recent_posts.scss */
+.recent_posts .wrapper_arrows .left_arrow, .recent_posts .wrapper_arrows .right_arrow {
+  width: 22px;
+  height: 22px;
+  margin: 10px;
+}
+/* line 172, ../scss/recent_posts.scss */
+.recent_posts .wrapper_arrows .left_arrow {
+  background-image: url(../img/posts/left.svg);
+}
+/* line 175, ../scss/recent_posts.scss */
+.recent_posts .wrapper_arrows .right_arrow {
+  background-image: url(../img/posts/right.svg);
+}
+/* line 178, ../scss/recent_posts.scss */
+.recent_posts .wrapper_arrows .left_arrow:hover {
+  background-image: url(../img/posts/left_hover.svg);
+}
+/* line 181, ../scss/recent_posts.scss */
+.recent_posts .wrapper_arrows .right_arrow:hover {
+  background-image: url(../img/posts/right_hover.svg);
+}
+
+/* line 1, ../scss/partners.scss */
+.partners {
+  background-image: url(../img/partners/photo.jpg);
+  background-size: cover;
+}
+/* line 5, ../scss/partners.scss */
+.partners figure {
+  display: grid;
+  width: 60%;
+  padding: 140px 0px;
+  margin: 0 auto;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  justify-content: center;
+  align-items: center;
+}

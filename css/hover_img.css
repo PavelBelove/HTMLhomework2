@@ -1,0 +1,42 @@
+/* line 1, ../scss/hover_img.scss */
+.hover_img {
+  background-color: #fbfaf8;
+  display: flex;
+  flex-direction: column;
+  align-content: center;
+  padding-top: 80px;
+}
+/* line 8, ../scss/hover_img.scss */
+.hover_img .wrapper {
+  padding-top: 40px;
+  position: relative;
+  background-color: #fbfaf8;
+  height: 482px;
+}
+/* line 15, ../scss/hover_img.scss */
+.hover_img img {
+  position: absolute;
+}
+/* line 19, ../scss/hover_img.scss */
+.hover_img .left_img {
+  left: 40%;
+  transform: translate(-50%, 20%);
+}
+/* line 23, ../scss/hover_img.scss */
+.hover_img .left_img:hover {
+  z-index: 1;
+}
+/* line 28, ../scss/hover_img.scss */
+.hover_img .right_img {
+  left: 60%;
+  transform: translate(-50%, 20%);
+}
+/* line 32, ../scss/hover_img.scss */
+.hover_img .right_img:hover {
+  z-index: 3;
+}
+/* line 38, ../scss/hover_img.scss */
+.hover_img .center_img {
+  left: 50%;
+  transform: translate(-50%, 0%);
+}

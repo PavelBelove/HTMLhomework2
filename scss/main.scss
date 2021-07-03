@@ -1,0 +1,28 @@
+h2 {
+    font-family: Raleway;
+    color: #555555;
+    font-size: 30px;
+    font-weight: 600;
+    text-align: center;
+}
+
+.about_h2 {
+    font-family: Montserrat;
+    color: #8c8c8c;
+    font-size: 16px;
+    font-weight: 300;
+    line-height: 28px;
+    text-align: center;
+}
+
+
+@import "servises.scss";
+@import "hover_img.scss";
+@import "wp_theme.scss";
+@import "projects.scss";
+@import "video_presentation.scss";
+@import "mobile.scss";
+@import "counters.scss";
+@import "recent_posts.scss";
+@import "partners.scss";
+    
